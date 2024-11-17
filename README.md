@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS `products` (
 ---
 
 ### 🌐 Running the Application
-1. Open your browser and navigate to **[http://localhost/shopping-cart/](http://localhost/shoppingcart/)**.
+1. Open your browser and navigate to **[http://localhost/Zekrom/](http://localhost/Zekrom/)**.
 
 2. Explore:
    - **Homepage**: Displays the recently added products with a sleek design.
