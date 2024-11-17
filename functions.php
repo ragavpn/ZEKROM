@@ -1,9 +1,9 @@
 <?php
 function pdo_connect_mysql() {
-    $DATABASE_HOST = '127.0.0.1';
-    $DATABASE_USER = 'root';
-    $DATABASE_PASS = '3115';
-    $DATABASE_NAME = 'shoppingcart';
+    $DATABASE_HOST = 'localhost';
+    $DATABASE_USER = '<your_user>';
+    $DATABASE_PASS = '<your_pass>';
+    $DATABASE_NAME = 'ZEKROM';
     try {
     	return new PDO('mysql:host=' . $DATABASE_HOST . ';dbname=' . $DATABASE_NAME . ';charset=utf8', $DATABASE_USER, $DATABASE_PASS);
     } catch (PDOException $exception) {
