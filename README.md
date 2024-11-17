@@ -52,7 +52,7 @@ After starting XAMPP (ensure Apache and MySQL are running), follow these steps t
 
 2. Create the database:
    - Click the **Databases** tab at the top.
-   - Under **Create database**, type `shoppingcart` in the text box.
+   - Under **Create database**, type `ZEKROM` in the text box.
    - Select `utf8_general_ci` as the collation.
    - Click **Create**.
 
@@ -75,7 +75,8 @@ CREATE TABLE IF NOT EXISTS `products` (
 ---
 
 ### 🌐 Running the Application
-1. Open your browser and navigate to **[http://localhost/ZEKROM/](http://localhost/ZEKROM/)**.
+1. Open functions.php and make sure to change the user and password according to your system.
+2. Open your browser and navigate to **[http://localhost/ZEKROM/](http://localhost/ZEKROM/)**.
 
 2. Explore:
    - **Homepage**: Displays the recently added products with a sleek design.
