@@ -1,4 +1,4 @@
-# Zekrom
+# ZEKROM (An E-Shopping Experience)
 
 A simple, elegant e-shopping website built using **PHP**, **MySQL**, and **plain CSS**. This project is designed to provide a straightforward e-commerce experience. Users can browse products, view details, and navigate seamlessly across pages. The backend database is managed using **MySQL**, running through the **XAMPP suite**, which provides an easy way to test and develop the project locally.
 
