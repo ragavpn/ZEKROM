@@ -1,9 +1,9 @@
 <?php
 function pdo_connect_mysql() {
-    $DATABASE_HOST = 'localhost';
-    $DATABASE_USER = '<your_user>';
-    $DATABASE_PASS = '<your_pass>';
-    $DATABASE_NAME = 'ZEKROM';
+    $DATABASE_HOST = '127.0.0.1';
+    $DATABASE_USER = 'root';
+    $DATABASE_PASS = '3115';
+    $DATABASE_NAME = 'shoppingcart';
     try {
     	return new PDO('mysql:host=' . $DATABASE_HOST . ';dbname=' . $DATABASE_NAME . ';charset=utf8', $DATABASE_USER, $DATABASE_PASS);
     } catch (PDOException $exception) {
@@ -30,7 +30,7 @@ echo <<<EOT
                 <h1>Zekrom</h1>
                 <nav>
                     <a href="index.php">Home</a>
-                    <a href="index.php?page=products">Shop</a>
+                    <a href="index.php?page=products">Products</a>
                 </nav>
                 <div class="link-icons">
                     <a href="index.php?page=cart">

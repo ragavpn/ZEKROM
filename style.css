@@ -156,9 +156,9 @@ main .recentlyadded .products .product:hover img, main .products .products-wrapp
 	transform: scale(1.05);
 	transition: transform 1s;
 }
-main .recentlyadded .products .product:hover .name, main .products .products-wrapper .product:hover .name {
+/* main .recentlyadded .products .product:hover .name, main .products .products-wrapper .product:hover .name {
 	text-decoration: underline;
-}
+} */
 main > .product {
 	display: flex;
 	padding: 40px 0;
@@ -343,8 +343,4 @@ footer {
 
 a {
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
